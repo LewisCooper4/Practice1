@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E3DA87318B1207F0073884E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3DA87218B1207F0073884E /* UIKit.framework */; };
+		1E3DA87518B1207F0073884E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3DA87418B1207F0073884E /* Foundation.framework */; };
+		1E3DA87718B1207F0073884E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E3DA87618B1207F0073884E /* CoreGraphics.framework */; };
+		1E3DA87D18B1207F0073884E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E3DA87B18B1207F0073884E /* InfoPlist.strings */; };
+		1E3DA87F18B1207F0073884E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DA87E18B1207F0073884E /* main.m */; };
+		1E3DA88318B1207F0073884E /* Practice1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DA88218B1207F0073884E /* Practice1AppDelegate.m */; };
+		1E3DA88B18B120C60073884E /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DA88A18B120C60073884E /* Card.m */; };
+		1E3DA88E18B124D30073884E /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DA88D18B124D30073884E /* Deck.m */; };
+		1E3DA89118B12E8F0073884E /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DA89018B12E8F0073884E /* PlayingCard.m */; };
+		1E3DA89418B1486E0073884E /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3DA89318B1486E0073884E /* PlayingCardDeck.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E3DA86E18B1207F0073884E /* Practice1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E3DA87218B1207F0073884E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1E3DA87418B1207F0073884E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1E3DA87618B1207F0073884E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E3DA87A18B1207F0073884E /* Practice1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Practice1-Info.plist"; sourceTree = "<group>"; };
+		1E3DA87C18B1207F0073884E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1E3DA87E18B1207F0073884E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1E3DA88018B1207F0073884E /* Practice1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Practice1-Prefix.pch"; sourceTree = "<group>"; };
+		1E3DA88118B1207F0073884E /* Practice1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Practice1AppDelegate.h; sourceTree = "<group>"; };
+		1E3DA88218B1207F0073884E /* Practice1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Practice1AppDelegate.m; sourceTree = "<group>"; };
+		1E3DA88918B120C60073884E /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		1E3DA88A18B120C60073884E /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		1E3DA88C18B124D30073884E /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		1E3DA88D18B124D30073884E /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		1E3DA88F18B12E8F0073884E /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		1E3DA89018B12E8F0073884E /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		1E3DA89218B1486E0073884E /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		1E3DA89318B1486E0073884E /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E3DA86B18B1207F0073884E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3DA87318B1207F0073884E /* UIKit.framework in Frameworks */,
+				1E3DA87518B1207F0073884E /* Foundation.framework in Frameworks */,
+				1E3DA87718B1207F0073884E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E3DA86318B1207F0073884E = {
+			isa = PBXGroup;
+			children = (
+				1E3DA87818B1207F0073884E /* Practice1 */,
+				1E3DA87118B1207F0073884E /* Frameworks */,
+				1E3DA86F18B1207F0073884E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E3DA86F18B1207F0073884E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DA86E18B1207F0073884E /* Practice1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E3DA87118B1207F0073884E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DA87218B1207F0073884E /* UIKit.framework */,
+				1E3DA87418B1207F0073884E /* Foundation.framework */,
+				1E3DA87618B1207F0073884E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E3DA87818B1207F0073884E /* Practice1 */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DA88918B120C60073884E /* Card.h */,
+				1E3DA88A18B120C60073884E /* Card.m */,
+				1E3DA88F18B12E8F0073884E /* PlayingCard.h */,
+				1E3DA89018B12E8F0073884E /* PlayingCard.m */,
+				1E3DA89218B1486E0073884E /* PlayingCardDeck.h */,
+				1E3DA89318B1486E0073884E /* PlayingCardDeck.m */,
+				1E3DA88C18B124D30073884E /* Deck.h */,
+				1E3DA88D18B124D30073884E /* Deck.m */,
+				1E3DA88118B1207F0073884E /* Practice1AppDelegate.h */,
+				1E3DA88218B1207F0073884E /* Practice1AppDelegate.m */,
+				1E3DA87918B1207F0073884E /* Supporting Files */,
+			);
+			path = Practice1;
+			sourceTree = "<group>";
+		};
+		1E3DA87918B1207F0073884E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E3DA87A18B1207F0073884E /* Practice1-Info.plist */,
+				1E3DA87B18B1207F0073884E /* InfoPlist.strings */,
+				1E3DA87E18B1207F0073884E /* main.m */,
+				1E3DA88018B1207F0073884E /* Practice1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E3DA86D18B1207F0073884E /* Practice1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E3DA88618B1207F0073884E /* Build configuration list for PBXNativeTarget "Practice1" */;
+			buildPhases = (
+				1E3DA86A18B1207F0073884E /* Sources */,
+				1E3DA86B18B1207F0073884E /* Frameworks */,
+				1E3DA86C18B1207F0073884E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Practice1;
+			productName = Practice1;
+			productReference = 1E3DA86E18B1207F0073884E /* Practice1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E3DA86518B1207F0073884E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Practice1;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Lewis Cooper";
+			};
+			buildConfigurationList = 1E3DA86818B1207F0073884E /* Build configuration list for PBXProject "Practice1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1E3DA86318B1207F0073884E;
+			productRefGroup = 1E3DA86F18B1207F0073884E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E3DA86D18B1207F0073884E /* Practice1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E3DA86C18B1207F0073884E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3DA87D18B1207F0073884E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E3DA86A18B1207F0073884E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3DA87F18B1207F0073884E /* main.m in Sources */,
+				1E3DA88318B1207F0073884E /* Practice1AppDelegate.m in Sources */,
+				1E3DA88B18B120C60073884E /* Card.m in Sources */,
+				1E3DA88E18B124D30073884E /* Deck.m in Sources */,
+				1E3DA89118B12E8F0073884E /* PlayingCard.m in Sources */,
+				1E3DA89418B1486E0073884E /* PlayingCardDeck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1E3DA87B18B1207F0073884E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E3DA87C18B1207F0073884E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E3DA88418B1207F0073884E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1E3DA88518B1207F0073884E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E3DA88718B1207F0073884E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Practice1/Practice1-Prefix.pch";
+				INFOPLIST_FILE = "Practice1/Practice1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1E3DA88818B1207F0073884E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Practice1/Practice1-Prefix.pch";
+				INFOPLIST_FILE = "Practice1/Practice1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E3DA86818B1207F0073884E /* Build configuration list for PBXProject "Practice1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E3DA88418B1207F0073884E /* Debug */,
+				1E3DA88518B1207F0073884E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E3DA88618B1207F0073884E /* Build configuration list for PBXNativeTarget "Practice1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E3DA88718B1207F0073884E /* Debug */,
+				1E3DA88818B1207F0073884E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E3DA86518B1207F0073884E /* Project object */;
+}
